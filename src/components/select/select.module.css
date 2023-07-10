@@ -1,0 +1,7 @@
+.select {
+ @apply w-full block border border-gray-400 rounded px-3 hover:outline-purple-600 focus:outline-1 focus:outline-purple-600 text-sm min-h-[3rem] data-[error=true]:border-red-500 data-[error=true]:focus:outline-red-500;
+}
+
+.select:disabled {
+ @apply cursor-not-allowed border border-gray-300 text-gray-400;
+}

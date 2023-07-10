@@ -1,0 +1,3 @@
+.label {
+  @apply block mb-2 text-base font-medium border-none text-black max-lg:text-sm data-[error=true]:text-red-500; ;
+}
